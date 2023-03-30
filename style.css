@@ -1,0 +1,35 @@
+.matrixInput > div > input{
+   width: 30px;
+   margin: 5px;
+}
+
+.matrixInput > div{
+   border: 2px solid black;
+   padding: 15px;
+   margin: 15px;
+}
+
+.result{
+    border: 2px solid black;
+    padding: 15px;
+    margin: 15px;
+}
+.result > input{
+    width: 30px;
+    margin: 5px;
+}
+.matrixInput{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.matrixInput > div:last-child{
+    border:none;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.matrixInput > div > button{
+    margin: 3px;
+}
